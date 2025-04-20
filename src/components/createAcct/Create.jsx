@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import InputField from "./InputField";
-import Logo from "./LogoIcon";
+import LogoIcon from "./LogoIcon";
 
 const Create = () => {
   const [name, setName] = useState("");
@@ -35,7 +35,7 @@ const Create = () => {
           >
             x
           </span>
-          <Logo />
+          <LogoIcon />
           <form className="my-10 ">
             <h1 className="header text-2xl font-bold mb-7">
               Create Your Account

@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import Logo from "./LogoIcon";
+import LogoIcon from "./LogoIcon";
 import { useState } from "react";
 import InputField from "./InputField";
 
@@ -16,7 +16,7 @@ const Username = () => {
   return (
     <div className="container px-3 h-full flex flex-col justify-between relative">
       <div>
-        <Logo />
+        <LogoIcon />
         <div>
           <h1 className="text-3xl font-bold py-4 w-4/5">
             What should we call you?

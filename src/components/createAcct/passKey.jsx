@@ -1,6 +1,6 @@
 import React from "react";
 import InputField from "./InputField";
-import Logo from "./LogoIcon";
+import LogoIcon from "./LogoIcon";
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 
@@ -23,7 +23,7 @@ const passKey = () => {
   return (
     <div className="container px-3 h-full flex flex-col justify-between relative">
       <div>
-        <Logo />
+        <LogoIcon />
         <div className="my-7">
           <h1 className="font-bold text-3xl">You'll need a password</h1>
           <p>Make sure it's 8 characters and more</p>

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import Logo from "./LogoIcon";
+import LogoIcon from "./LogoIcon";
 
 const UserProfile = () => {
   const [profilePhoto, setProfilePhoto] = useState("/src/assets/upload.jpg");
@@ -20,7 +20,7 @@ const UserProfile = () => {
     <div className="container px-3 h-full flex flex-col justify-between relative">
       <div>
         <div className="mb-8">
-          <Logo />
+          <LogoIcon />
         </div>
         <div className="mb-14">
           <h1 className="text-3xl font-bold py-2">Pick a profile picture</h1>
