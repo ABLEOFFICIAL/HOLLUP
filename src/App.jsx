@@ -4,7 +4,8 @@ import PageX from "./components/pageX";
 import StartUp from "./components/createAcct/StartUp";
 import Create from "./components/createAcct/Create.jsx";
 import PassKey from "./components/createAcct/passKey.jsx";
-import Profile from "./components/createAcct/profile.jsx";
+// import Profile from "./components/createAcct/profile.jsx";
+import UserProfile from "./components/createAcct/UserProfile.jsx";
 import Username from "./components/createAcct/Username.jsx";
 import Notification from "./components/createAcct/Notification.jsx";
 
@@ -29,8 +30,8 @@ const router = createBrowserRouter([
     element: <PassKey />,
   },
   {
-    path: "/profile",
-    element: <Profile />,
+    path: "/UserProfile",
+    element: <UserProfile />,
   },
   {
     path: "/Username",

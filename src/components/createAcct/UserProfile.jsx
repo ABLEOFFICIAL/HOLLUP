@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import Logo from "./logo";
 
-const profile = () => {
+const UserProfile = () => {
   const [profilePhoto, setProfilePhoto] = useState("/src/assets/upload.jpg");
 
   const handleImageChange = (e) => {
@@ -57,4 +57,4 @@ const profile = () => {
   );
 };
 
-export default profile;
+export default UserProfile;
