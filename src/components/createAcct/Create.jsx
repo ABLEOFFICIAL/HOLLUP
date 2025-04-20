@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import InputField from "./inputField";
+import InputField from "./InputField";
 import Logo from "./logo";
 
 const Create = () => {

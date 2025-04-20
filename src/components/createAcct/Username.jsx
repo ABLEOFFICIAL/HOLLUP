@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import Logo from "./logo";
 import { useState } from "react";
-import InputField from "./inputField";
+import InputField from "./InputField";
 
 const Username = () => {
   const [username, setUsername] = useState("");
