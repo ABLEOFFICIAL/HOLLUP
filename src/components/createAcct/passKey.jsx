@@ -60,7 +60,7 @@ const passKey = () => {
           <span className="text-[#2954d6] cursor-pointer">here</span>.
         </p>
         <NavLink
-          to="/Profile"
+          to="/profile"
           className={`font-bold text-lg w-full text-center block text-white rounded-full p-2 cursor-pointer ${
             isValid ? "bg-black" : "bg-neutral-600"
           }`}
