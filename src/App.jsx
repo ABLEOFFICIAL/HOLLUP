@@ -28,7 +28,7 @@ const router = createBrowserRouter([
     element: <PassKey />,
   },
   {
-    path: "/Profile",
+    path: "/profile",
     element: <Profile />,
   },
   {
