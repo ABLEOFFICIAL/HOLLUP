@@ -1,12 +1,11 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import LogoIcon from "./LogoIcon";
 
 const StartUp = () => {
   return (
     <div className="flex flex-col justify-between h-auto overflow-y-auto">
-      <div className="">
-        <img className="w-17" src="/src/assets/logo-black.png" alt="logo" />
-      </div>
+      <LogoIcon />
       <div className="h-60 flex items-center justify-center ">
         <h1 className="text-5xl font-bold w-[90%]">Happening now</h1>
       </div>
