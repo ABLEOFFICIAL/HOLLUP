@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import Logo from "./logo";
+import Logo from "./LogoIcon";
 import { useState } from "react";
 import InputField from "./InputField";
 

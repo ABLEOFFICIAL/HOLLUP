@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import InputField from "./InputField";
-import Logo from "./logo";
+import Logo from "./LogoIcon";
 
 const Create = () => {
   const [name, setName] = useState("");
