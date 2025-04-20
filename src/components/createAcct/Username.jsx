@@ -36,7 +36,7 @@ const Username = () => {
       </div>
 
       <NavLink
-        to="/Username"
+        to="/Notification"
         className={`font-bold text-lg block w-full text-center ${
           isValid ? "text-white bg-black" : "text-white bg-neutral-600"
         } rounded-full p-2  border-[1px] border-neutral-500`}

@@ -6,6 +6,7 @@ import Create from "./components/createAcct/Create.jsx";
 import PassKey from "./components/createAcct/passKey.jsx";
 import Profile from "./components/createAcct/profile.jsx";
 import Username from "./components/createAcct/Username.jsx";
+import Notification from "./components/createAcct/Notification.jsx";
 
 import {
   createBrowserRouter,
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
   {
     path: "/Username",
     element: <Username />,
+  },
+  {
+    path: "/Notification",
+    element: <Notification />,
   },
 ]);
 
